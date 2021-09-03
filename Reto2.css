@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0522a;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px 10px;
+}
+
+.head h2 {
+    align-items: center;
+    justify-items: center;
+    color: #fff;
+}
+
+.container {
+    display: inline-block;
+    align-content: center;
+    background: #5684c9;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px 10px;
+}
+
+.card-container {
+    display: inline-block;
+    width: 240px;
+    background: #fff;
+    margin-inline: 10px;
+    margin-block: 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .5);
+}
+
+.header,
+.title {
+    padding-block: 2px;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    height: 60px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.header a {
+    position: relative;
+    display: block;
+}
+
+.header img {
+    border-radius: 50%;
+    box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 30px;
+    transition: .25;
+}
+
+.header a:hover img {
+    box-shadow: 0 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+.header h3 {
+    color: #f0522a;
+}
+
+.social {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social a {
+    display: inline-block;
+    padding: 10px;
+    color: #f0522a;
+}
+
+@media (max-width:640px) {
+    .container {
+        display: block;
+        align-content: center;
+        justify-content: center;
+    }
+}
